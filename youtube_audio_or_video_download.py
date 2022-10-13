@@ -15,7 +15,7 @@ if user_input == "y":
         try:
             print("\nDownloading audio...")
             ys = yt.streams.get_audio_only()
-            ys.download("audio")
+            ys.download("audio") # Path for audio files
             print(f"{yt.title} has been downloaded successfully.")
         except:
             print("Something went wrong! Try again or use another link.")
@@ -23,7 +23,7 @@ if user_input == "y":
         try:
             print("\nDownloading video...")
             ys = yt.streams.get_highest_resolution()
-            ys.download("video")
+            ys.download("video") # Path for video files
             print(f"{yt.title} has been downloaded successfully.")
         except:
             print("Something went wrong! Try again or use another link.")
