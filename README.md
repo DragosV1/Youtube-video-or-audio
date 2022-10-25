@@ -11,4 +11,4 @@ $> python -m pip install pytube
 ```
 Create to folders: `audio` and `video`.
 
-After installation run `youtube_audio_or_video_download.py`. (You can name it as you want)
+After installation run `python youtube_audio_or_video_download.py`. (You can name it as you want)
